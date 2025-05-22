@@ -2,18 +2,7 @@
 
 ## Quick Setup
 
-### 1. Create the Application
-
-Create a new directory and save the files:
-
-```bash
-mkdir benchmark-analyzer
-cd benchmark-analyzer
-```
-
-Save the Python code as `app.py` and the requirements as `requirements.txt`.
-
-### 2. Install Dependencies
+### 1. Install Dependencies
 
 ```bash
 # Create virtual environment (recommended)
@@ -29,7 +18,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3. Run the Application
+### 2. Run the Application
 
 ```bash
 streamlit run app.py
